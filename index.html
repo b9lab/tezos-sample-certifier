@@ -1,0 +1,43 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./app.css">
+  <title>Issue Certificate</title>
+  <script src="./jquery.slim.min.js"></script>
+  <script src="https://unpkg.com/@taquito/taquito@8.0.6-beta.0/dist/taquito.min.js"
+crossorigin="anonymous" integrity="sha384-Nl9zWZPEZwA7IDtkqHP9BThh6Os+lYrN0JOM3qzCIdsQqxKChg57TaoeCIcDfwex"></script>
+
+</head>
+<body>
+  <div id="settings-bar">
+    <a href="#" class="btn btn-settings" id="btn_settings">Toggle Settings</a>
+    <a href="#" class="btn btn-load" id="btn_load">Load File</a><input type='file' id='upl_input'>
+    <div id="settings-box">
+        <p>Settings</p>
+        <p class="form-title">Provider</p>
+        <input type="text" id="provider" class="form-input form-input-small">
+        <p class="form-title">Mnemonic</p><input type="text" id="mnemonic" class="form-input form-input-small">
+        <p class="form-title">Password</p><input type="text" id="password" class="form-input form-input-small">
+        <p class="form-title">Email</p><input type="text" id="email" class="form-input form-input-small">
+        <p class="form-title">Contract Adress</p><input type="text" id="contractAddress" class="form-input form-input-small">
+      </div>
+  </div>
+
+  <div id="app_container">
+    <div class="title-bar">Issue Certificate</div>
+    <div class="content-box">
+      <table class="form-table">
+        <tr><td class="col-1">
+          <input class="form-input" type="text" id="inp_address" placeholder="Address"/>
+        </td><td>
+          <a href="#" id="btn_issue" class="btn btn-submit">Issue</a>
+        </td></tr>
+        <tr><td colspan="2">
+          <div id="result-bar" class="result-bar"></div>
+        </td></tr>
+      </table>      
+    </div>
+  </div>
+  <script src="./signer.js"></script>
+  <script src="./certifier.js"></script>
+</body>
+</html>
