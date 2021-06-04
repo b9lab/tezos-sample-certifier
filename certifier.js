@@ -2,11 +2,11 @@
 // You can hardcode your account settings and contract address here for local testing.
 function initUI() {
     updateUISetting({
-        provider: "https://edonet.smartpy.io/",
-        mnemonic: "pen orphan heavy bone fever reform never detail zone parade act civil bench space adapt",
-        password: "dBKYO9LP1O",
-        email: "lihaeain.eflfwsqy@tezos.example.org",
-        contractAddress: "KT1SgX1ZehTysGcNoSwypwg6Xs5Cj7cpokwK"
+        provider: "https://florencenet.smartpy.io/",
+        mnemonic: "twenty aware media quality beyond summer milk hurry library unknown hover permit conduct switch slogan",
+        password: "TUBtLEyYi5",
+        email: "hfezymib.ytwslmjd@tezos.example.org",
+        contractAddress: "KT1F1eTVrVFoaNuKw1LbQp1oYptjjcqZby2v"
     });
 
     // setup all UI actions
